@@ -133,3 +133,7 @@ def test_basic_swarm() -> None:
     assert turn_2["messages"][-2].content == "12"
     assert turn_2["messages"][-1].content == recorded_messages[4].content
     assert turn_2["active_agent"] == "Alice"
+    print("success")
+
+if __name__ == "__main__":
+    test_basic_swarm()
